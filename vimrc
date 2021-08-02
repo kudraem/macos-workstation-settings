@@ -6,6 +6,11 @@ set noerrorbells visualbell t_vb=
 set mouse+=a
 set shortmess+=I
 
+" For Python programming
+set expandtab
+set tabstop=4
+set autoindent
+
 nnoremap <Left>  :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>
